@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Chela+One&family=DM+Sans:opsz,wght@9..40,300&family=Dhurjati&family=Mukta&family=Nunito+Sans:opsz,wght@6..12,300&family=Oxygen:wght@700&family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: #c3e4e9;
+    padding: 3vh;
+}
+
+.titulo {
+    margin-left: 45%;
+    font-size: larger;
+    font-family: 'DM Sans', sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+main {
+    height: 80vh;
+    background: url("imgdefundo.png") center center/cover;
+    background-color: rgba(179, 179, 179, 0.2);
+    background-blend-mode: color;
+}
+
+.titulos {
+    margin-right: 28%;
+    border-top-right-radius: 2vh;
+    border-bottom-right-radius: 2vh;
+    background-color: #000000;
+}
+
+.subtitulo {
+    display: flex;
+    margin-top: 35vh;
+    margin-bottom: 1vh;
+    color: white;
+    font-size: xx-large;
+    padding-left: 15vh;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bigtitulo {
+    display: flex;
+    padding-left: 12vh;
+    color: #b0dbe1;
+    font-size: 100px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.ponto {
+    color: white;
+}
+
+footer {
+    background-color: #c3e4e9;
+}
+
+.lista1 {
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+    gap: 8vh;
+}
+
+.profissoes { 
+    display: flex;
+    background-color: white;
+    padding: 2vh;
+    border-radius: 2vh;
+    gap: 2vh;
+    width: 100vh;
+    box-shadow: 2px 2px 4px black;
+
+}
+
+#titulo{
+    margin-left: -2vh;
+    margin-bottom: 1vh;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#titulo2{
+    margin-left: 2vw;
+    margin-bottom: 1vw;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.lista2 {
+    display: flex;
+    justify-content: center;
+    padding: 10vh;
+}
+
+.desafios {
+    display: flex;
+    background-color: white;
+    border-radius: 2vh;
+    padding: 2vh;
+    width: 80vh;
+    box-shadow: 2px 2px 4px black;
+}
+
+.jovens {
+    display: flex;
+    justify-content: center;
+    padding: 8vh;
+}
+
+.jovens2{
+    display: flex;
+    border-radius: 2vh;
+    padding: 2vh;
+    width: 70vw;
+}
+
+.passa-pre-fu {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 8vh;
+    border-radius: 2vh;
+    background-color: white;
+    box-shadow: 2px 2px 4px black;
+}
+
+.carousel-container {
+    display: flex;
+    overflow: hidden;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.carousel-slide {
+    flex: 100%;
+}
+
+.carousel-slide img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    background-color: #c3e4e9;
+    font-weight: bold;
+    height: auto;
+    /*margin-top: 50%;*/
+
+}
+
+button:hover{
+    /*scale: 1.1;*/
+    background-color: black;
+    color: #c3e4e9;
+}
+
+.realidade-sinos {
+    display: flex;
+    justify-content: center;
+    padding: 8vh;
+    border-radius: 2vh;
+    background-color: white;
+    width: 70vw;
+    box-shadow: 2px 2px 4px black;
+
+}
+
+.lista3{
+    display: flex;
+    justify-content: center;
+    padding: 8vh;
+}
+
+#img1 {
+    height: 45vh;
+    width: 45vh;
+    margin-top: 2vw;
+}
+
+#img2 {
+    height: 65vh;
+    width: 65vh;
+}
+
+#img3{
+    height: 65vh;
+    width: 75vh;
+}
+
+.section1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 3vh;
+}
+
+.section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5vw;
+}
+
+#texto-sobre{
+    margin-bottom: 1vh;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#texto-sobre2{
+    margin-bottom: 2vh;
+    margin-left: -3vh;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#texto-sobre3{
+    margin-bottom: 1vw;
+    margin-left: 4vw;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#texto-sobre4{
+    margin-bottom: 0.5vw;
+    margin-left: 4vw;
+    font-family: 'DM Sans', sans-serif;
+}
+
+#h3{
+    font-family: 'DM Sans', sans-serif;
+}
+
+#h2{
+    font-family: 'DM Sans', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+}
+  
+  body::-webkit-scrollbar-track {
+    background: white;       
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: grey;    
+    border-radius: 20px;    
+}
